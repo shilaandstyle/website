@@ -1,0 +1,104 @@
+a:-webkit-any-link {
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: josefin-sans, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #333333;
+    background-color: #ececec;
+}
+
+h1{
+    font-family: josefin-sans, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #25203A;
+    font-size: 36px;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    text-align: center;
+}
+
+h3{
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    font-weight: 400;
+    font-style: normal;
+    color: #25203A;
+    font-size: 24px;
+    text-align: center;
+}
+
+.content-container{
+    margin: 20vh auto;
+    padding: 0 24px;
+    background-blend-mode: multiply;
+}
+
+.logo-container{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+img{
+    margin: 0 auto;
+    width: 307px;
+}
+
+.message-container{
+    margin: 12px auto 0 auto;
+    width: 500px;
+}
+
+.message-container p{
+    margin: auto;
+    font-size: 18px;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    text-align: center;
+}
+
+.brochure-container{
+    margin: 28px auto 28px auto;
+    width: 66vw;
+    text-align: center;
+}
+
+.button-available {
+    height: 33px;
+    min-width: 97px;
+    padding: 3px 20px 5px 20px;
+    background: #25203a;
+    border-radius: 33px;
+    font-size: 18px;
+    font-weight: light;
+    color: #D2AB67;
+    border: none;
+    transition-duration: 0.3s;
+    transition-timing-function: cubic-bezier(0.23, 1, 0.320, 1);
+    transition-property: background-color;
+}
+
+.button-available:hover{
+background-color: #D2AB67;
+color: #25203A;
+}
+
+.contact-container{
+    font-size: 18px;
+    color: #25203A;
+    display: flex;
+    margin: 28px auto 0 auto;
+    width: 33vw;
+    text-align: center;
+    justify-content: space-between;
+}
