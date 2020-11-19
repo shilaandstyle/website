@@ -205,10 +205,10 @@ body {
         display: block;
         height: 33px;
         min-width: 97px;
-        padding: 8px 20px 8px 20px;
+        padding: 4px 14px 4px 14px;
         background: #25203a;
         border-radius: 100px;
-        font-size: 18px;
+        font-size: 16px;
         font-weight: light;
         color: #D2AB67;
         border: none;
