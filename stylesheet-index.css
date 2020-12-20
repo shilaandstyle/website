@@ -134,7 +134,7 @@ body {
     }
 
     .gallery-container {
-        margin: -1px auto;
+        margin: auto;
         display: grid;
         grid-template-columns: 15% 20% 50% auto;
         grid-template-rows: 750px;
