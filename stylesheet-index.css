@@ -397,12 +397,31 @@ body {
         justify-content: center;
         align-items: center;
         margin: 0 auto;
-        border-bottom: var(--spGold) 2px solid;
-        padding: 70px 0;
-    }
+        
+        padding-top: 50px;
+        padding-bottom: 15px;
+        }
 
     .usage-heading-container h4 {
         padding-bottom: 10px;
+    }
+
+    .usage-section-description-container{
+        padding: 0 15vw 50px 15vw;
+        border-bottom: var(--spGold) 2px solid;
+    }
+
+    .usage-section-description-text{
+        font-family: josefin-sans, sans-serif;
+        font-weight: 400;
+        font-size: 24px;
+        color: var(--spBlue);
+        text-align: center;
+        line-height: 120%;
+    }
+
+    .usage-section-description-text p{
+        padding: 0;
     }
 
     .bootstrap-gallery-wrapper {
