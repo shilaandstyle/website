@@ -220,7 +220,7 @@ body {
         height: 100%;
         width: 100%;
         border: none;
-        background-image: url(/images/agates/whiteagateShilaAndStyle.jpg);
+        background-image: url(./images/agates/whiteagateShilaAndStyle.jpg);
         background-position: center;
         background-size: cover;
         color: var(--spWhite);
@@ -236,49 +236,49 @@ body {
     }
 
     #prod-button-1{
-        background-image: url(/images/agates/whiteagateShilaAndStyle.jpg);
+        background-image: url(./images/agates/whiteagateShilaAndStyle.jpg);
         background-position: center;
         background-size: cover;
     }
 
     #prod-button-2{
-        background-image: url(/images/agates/blueagateShilaAndStyle.jpg);
+        background-image: url(./images/agates/blueagateShilaAndStyle.jpg);
         background-position: center;
         background-size: cover;
     }
 
     #prod-button-3{
-        background-image: url(/images/agates/greyagateShilaAndStyle.jpg);
+        background-image: url(./images/agates/greyagateShilaAndStyle.jpg);
         background-position: center;
         background-size: cover;
     }
 
     #prod-button-4{
-        background-image: url(/images/agates/raniagateShilaAndStyle.jpg);
+        background-image: url(./images/agates/raniagateShilaAndStyle.jpg);
         background-position: center;
         background-size: cover;
     }
 
     #prod-button-5{
-        background-image: url(/images/agates/crystalagateShilaAndStyle.jpg);
+        background-image: url(./images/agates/crystalagateShilaAndStyle.jpg);
         background-position: center;
         background-size: cover;
     }
 
     #prod-button-6{
-        background-image: url(/images/agates/greenagateShilaAndStyle.jpg);
+        background-image: url(./images/agates/greenagateShilaAndStyle.jpg);
         background-position: center;
         background-size: cover;
     }
 
     #prod-button-7{
-        background-image: url(/images/agates/yellowagateShilaAndStyle.jpg);
+        background-image: url(./images/agates/yellowagateShilaAndStyle.jpg);
         background-position: center;
         background-size: cover;
     }
 
     #ruby-button-1{
-        background-image: url(/images/ruby/rubyFrontNaturalLitShilaAndStyle.jpg);
+        background-image: url(./images/ruby/rubyFrontNaturalLitShilaAndStyle.jpg);
         background-position: center;
         background-size: cover;
     }
@@ -296,7 +296,7 @@ body {
     }
 
     #semi-precious-product-viewer{
-        background-image: url(/images/agates/whiteagateShilaAndStyle.jpg);
+        background-image: url(./images/agates/whiteagateShilaAndStyle.jpg);
         background-attachment: fixed;
         background-repeat: no-repeat;
         background-size: auto 130%;
@@ -304,7 +304,7 @@ body {
     }
 
     #precious-product-viewer{
-        background-image: url(/images/ruby/rubyFrontNaturalLitShilaAndStyle.jpg);
+        background-image: url(./images/ruby/rubyFrontNaturalLitShilaAndStyle.jpg);
         background-attachment: fixed;
         background-repeat: no-repeat;
         background-size: auto 130%;
