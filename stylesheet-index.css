@@ -130,16 +130,17 @@ body {
         /* height: 80vh; */
         border-top: var(--spGold) 2px solid;
         border-bottom: var(--spGold) 2px solid;
+        background-color: var(--spWhite);
     }
 
     .gallery-container {
+        margin: -1px auto;
         display: grid;
-        grid-template-columns: 15vw auto 50vw 15vw;
+        grid-template-columns: 15% 20% 50% auto;
         grid-template-rows: 750px;
         max-width: 1920px;
-        /* height: 80vh; */
-        /* border-right: var(--spGold) 2px solid; */
-        /* border-left: var(--spGold) 2px solid; */
+        border-right: var(--spGold) 2px solid;
+        border-left: var(--spGold) 2px solid;
         background-color: var(--spWhite);
     }
 
