@@ -405,7 +405,7 @@ body {
         align-items: center;
         margin: 0 auto;
         
-        padding-top: 50px;
+        padding-top: 53px;
         padding-bottom: 15px;
         }
 
@@ -414,7 +414,7 @@ body {
     }
 
     .info-section-description-container{
-        padding: 0 15vw 50px 15vw;
+        padding: 0 12vw 45px 12vw;
         border-bottom: var(--spGold) 2px solid;
     }
 
@@ -434,7 +434,7 @@ body {
     .bootstrap-gallery-wrapper {
         margin: auto;
         display: grid;
-        grid-template-columns: 15% 70vw auto;
+        grid-template-columns: 15% auto 15%;
         grid-template-rows: max-content;
         max-width: 1920px;
     }
@@ -446,8 +446,8 @@ body {
 
     .carousel-item img{
         object-fit: cover;
-        height: 45.3vw;
         z-index: 0;
+        height: 42vw !important;
     }
 
     .overlay{
@@ -457,7 +457,7 @@ body {
         position: absolute;
         z-index: 2;
         word-wrap: normal;
-        max-width: 20%;
+        max-width: 27%;
 
         font-family: josefin-sans, sans-serif;
         font-weight: 300;
@@ -486,13 +486,75 @@ body {
 
     .trust-section {
         background-color: var(--spWhite);
-        border-bottom: var(--spGold) 2px solid;
+        border-bottom: 2px var(--spGold) solid;
     }
 
     .gold-text{
         color: var(--spGold);
         font-size: 24px;
         font-weight: 300;
+    }
+
+    .image-set-wrapper{
+        display: grid;
+        grid-template-columns: 15% auto 15%;
+        height: max-content;
+    }
+
+    .image-container{
+        grid-column: 2 / span 1;
+        background-color: var(--spWhite);
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 2fr 2fr;
+        grid-template-rows: max-content max-content;
+        column-gap: 2px;
+        background-color: var(--spGold);
+        max-width: 1920px;
+        border-right: solid var(--spGold) 2px;
+        border-left: solid var(--spGold) 2px;
+    }
+
+    .craftsmen-image{
+        object-fit: cover;
+        height: 16vw !important;
+        width: 100%;
+    }
+
+    #trust-1{
+        object-position: center center;
+    }
+
+    #trust-2{
+        object-position: top center;
+    }
+
+    #trust-3{
+        object-position: top center;
+    }
+
+    /* .purity-container{ */
+        /* margin: auto; */
+        /* display: grid; */
+        /* grid-template-columns: 15% auto 15%; */
+        /* grid-template-rows: 35vw; */
+        /* max-width: 1920px; */
+    /* } */
+    
+    .purity-image-container{
+        border-top: solid 2px var(--spGold);
+        background-image: url(./images/purity/purity-bgcopy.jpg);
+        background-position: center bottom;
+        background-repeat: no-repeat;
+        background-size: cover;
+        grid-column: 1 / span 3;
+        grid-row: 2 / span 1;
+        height: 30vw;
+    }
+
+    .purity-text-container{
+        margin: 10% auto 0 auto;
+        padding: 20px;
     }
 
 }
