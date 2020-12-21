@@ -553,8 +553,21 @@ body {
     }
 
     .purity-text-container{
-        margin: 10% auto 0 auto;
+        position: relative;
+        margin: 32px auto 0 auto;
         padding: 20px;
+        width: 35%;
+        color: var(--spGold);
+
+        object-position: center center;
+
+        background-color: rgba(255, 255, 255, 0);
+        border: var(--spGold) 2px solid;
+
+        font-family: josefin-sans, sans-serif;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 120%;
     }
 
 }
