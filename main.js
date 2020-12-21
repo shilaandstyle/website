@@ -12,6 +12,7 @@ function agateClick() {
 
 function amethystClick() {
     document.getElementById('semi-precious-product-viewer').style.backgroundImage='url(./images/amethysts/amethysttumblesShilaAndStyle.jpg)';
+    
 }
 
 function jasperClick() {
