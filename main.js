@@ -1,21 +1,24 @@
-function clickFn() {
-    var button1 = document.getElementById("clickButton");
-    var logoLink = document.getElementById("logo");
-    button1.style.color='teal';
-    logoLink.src = 'images/agates/01_100ppc-3scans.jpg';
-    logoLink.style.maxWidth='200px';
-    logoLink.style.maxHeight='200px';
+let spGold = '#D2AB67';
+let spGrey = '#F8F8F8';
+let spBlue =  '#25203A';
+let spPink = '#F9B9B3';
+let spWhite = '#FFFFFF';
 
-    document.getElementById("href").href="https://stackoverflow.com/questions/4365246/how-to-change-href-of-a-tag-on-button-click-through-javascript";
-    document.getElementById("href").innerHTML="StackBoi is real";
-    document.getElementById("href").style.backgroundImage="url('images/agates/01_100ppc-3scans.jpg')";
+//======== material functions ===========
+
+function agateClick() {
+    document.getElementById('semi-precious-product-viewer').style.backgroundImage='url(./images/agates/blueagateShilaAndStyle.jpg)';
 }
 
-function bodyClick() {
-    var logoLink = document.getElementById("logo");
-    var button1 = document.getElementById("clickButton");
-    logoLink.src = 'images/logos/primaryIcon-primaryBG-1.svg';
-    button1.style.color='orange';
-    logoLink.style.maxWidth='none';
-    logoLink.style.maxHeight='none';
+//========= utility functions ===========
+
+function selMat(x) {
+    x.style.backgroundColor = spGold;
+    x.style.color = spWhite;
 }
+
+function deselMat(x) {
+    x.style.backgroundColor = 'unset';
+    x.style.color = 'unset';
+}
+
