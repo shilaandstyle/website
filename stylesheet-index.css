@@ -556,12 +556,12 @@ body {
         position: relative;
         margin: 32px auto 0 auto;
         padding: 20px;
-        width: 35%;
+        width: 32%;
         color: var(--spGold);
 
         object-position: center center;
 
-        background-color: rgba(255, 255, 255, 0);
+        /* background-color: var(--spBlue); */
         border: var(--spGold) 2px solid;
 
         font-family: josefin-sans, sans-serif;
