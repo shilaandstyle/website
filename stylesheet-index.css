@@ -575,9 +575,75 @@ body {
     .properties-section{
         display: grid;
         grid-template-columns: 15% auto 15%;
-        grid-template-rows: 40vh;
-        
+        grid-template-rows: 80vh;
+        background-color: var(--spWhite);
+        border-bottom: 2px var(--spGold) solid;
     }
+
+    .properties-container{
+        background-image: url(./images/background-images/greenagate.jpg);
+        background-position: center center;
+        background-attachment: fixed;
+        grid-column: 1 / span 3;
+        border-right: solid var(--spGold) 2px;
+        border-left: solid var(--spGold) 2px;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .properties-card{
+        background-color: rgba(255, 255, 255, 0.94);
+        border: 2px var(--spGold) solid;
+        padding: 20px;
+        width: 350px;
+    }
+
+    .properties-card .headline{
+        font-family: josefin-sans, sans-serif;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 120%;
+        padding-bottom: 20px;
+        border-bottom: 2px var(--spGold) solid;
+        margin-bottom: 15px;
+    }
+
+    .contact-section{
+        height: 50vh;
+        background-color: var(--spWhite);
+        border-bottom: 2px var(--spGold) solid;
+    }
+    .footer-section{
+        height: 50vh;
+        background-color: var(--spWhite);
+        border-bottom: 2px var(--spGold) solid;
+    }
+
+    .material-property{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 12px;
+    }
+
+    .property-icon{
+        height: auto;
+        width: 40px;
+    }
+
+    .property-text{
+        font-family: josefin-sans, sans-serif;
+        font-weight: 300;
+        font-size: 18px;
+        color: var(--spBlue);
+        line-height: 120%;
+        padding-left: 24px;
+    }
+
+
 }
 
 @media (max-width:945px) {}
