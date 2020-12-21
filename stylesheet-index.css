@@ -437,11 +437,14 @@ body {
         grid-template-columns: 15% auto 15%;
         grid-template-rows: max-content;
         max-width: 1920px;
+
+        background-color: var(--spBlue);
     }
 
     .bootstrap-gallery-container {
         border-left: var(--spGold) 2px solid;
         border-right: var(--spGold) 2px solid;
+        grid-column: 2 / span 1;
     }
 
     .carousel-item img{
@@ -499,6 +502,7 @@ body {
         display: grid;
         grid-template-columns: 15% auto 15%;
         height: max-content;
+        background-color: #000;
     }
 
     .image-container{
