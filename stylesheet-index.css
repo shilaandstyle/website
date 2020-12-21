@@ -617,9 +617,8 @@ body {
         border-bottom: 2px var(--spGold) solid;
     }
     .footer-section{
-        height: 50vh;
-        background-color: var(--spWhite);
-        border-bottom: 2px var(--spGold) solid;
+        height: 30vh;
+        background-color: var(--spBlue);
     }
 
     .material-property{
