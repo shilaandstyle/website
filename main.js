@@ -14,6 +14,8 @@ function agateClick() {
     deselMat(document.getElementById('button-jasper'));
     deselMat(document.getElementById('button-aventurine'));
 
+    selectedMat = 'agate';
+
     document.getElementById('semi-precious-product-viewer').style.backgroundImage='url(./images/agates/whiteagateShilaAndStyle.jpg)';
 
     document.getElementById('prod-button-1').style.display='block';
@@ -46,6 +48,9 @@ function agateClick() {
 }
 
 function amethystClick() {
+
+    selectedMat = 'amethyst';
+
     deselMat(document.getElementById('button-agate'));
     selMat(document.getElementById('button-amethyst'));
     deselMat(document.getElementById('button-jasper'));
@@ -69,6 +74,9 @@ function amethystClick() {
 }
 
 function jasperClick() {
+
+    selectedMat = 'jasper';
+
     deselMat(document.getElementById('button-agate'));
     deselMat(document.getElementById('button-amethyst'));
     selMat(document.getElementById('button-jasper'));
@@ -89,6 +97,9 @@ function jasperClick() {
 }
 
 function aventurineClick() {
+
+    selectedMat='aventurine';
+
     deselMat(document.getElementById('button-agate'));
     deselMat(document.getElementById('button-amethyst'));
     deselMat(document.getElementById('button-jasper'));
@@ -112,6 +123,32 @@ function aventurineClick() {
     document.getElementById('prod-button-7').style.display='none';
 
     document.getElementById('semi-precious-product-viewer').style.backgroundImage='url(./images/aventurines/redaventurineShilaAndStyle.jpg)';
+}
+
+function prod1click() {
+    if (selectedMat === 'agate') {
+        document.getElementById('semi-precious-product-viewer').style.backgroundImage='url(./images/agates/whiteagateShilaAndStyle.jpg)';
+        document.getElementById('semi-precious-backlit-front').src='./images/agates/whiteagateFrontBacklitShilaAndStyle.jpg';
+        document.getElementById('semi-precious-backlit-side').src='./images/agates/whiteagateSideBacklitShilaAndStyle.jpg';
+    }
+
+    else if (selectedMat === 'amethyst') {
+        document.getElementById('semi-precious-product-viewer').style.backgroundImage='url(./images/amethysts/amethysttumblesShilaAndStyle.jpg)';
+        document.getElementById('semi-precious-backlit-front').src='./images/amethysts/amethysttumblesFrontBacklitShilaAndStyle.jpg';
+        document.getElementById('semi-precious-backlit-side').src='./images/amethysts/amethysttumblesSideBacklitShilaAndStyle.jpg';
+    }
+
+    else if (selectedMat === 'jasper') {
+        document.getElementById('semi-precious-product-viewer').style.backgroundImage='url(./images/amethysts/amethysttumblesShilaAndStyle.jpg)';
+        document.getElementById('semi-precious-backlit-front').src='./images/amethysts/amethysttumblesFrontBacklitShilaAndStyle.jpg';
+        document.getElementById('semi-precious-backlit-side').src='./images/amethysts/amethysttumblesSideBacklitShilaAndStyle.jpg';
+    }
+
+    else if (selectedMat === 'aventurine') {
+        document.getElementById('semi-precious-product-viewer').style.backgroundImage='url(./images/aventurines/redaventurineShilaAndStyle.jpg)';
+        document.getElementById('semi-precious-backlit-front').src='./images/aventurines/redaventurineFrontBacklitShilaAndStyle.jpg';
+        document.getElementById('semi-precious-backlit-side').src='./images/aventurines/redaventurineSideBacklitShilaAndStyle.jpg';
+    }
 }
 
 //========= utility functions ===========
