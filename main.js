@@ -43,7 +43,7 @@ function agateClick() {
     document.getElementById('prod-button-6').innerHTML = 'SAG 06'
 
     document.getElementById('prod-button-7').style.display='block';
-    document.getElementById('prod-button-7').style.backgroundImage = 'url()';
+    document.getElementById('prod-button-7').style.backgroundImage = 'url(./images/thumbnails/greenagateShilaAndStyle.jpg)';
     document.getElementById('prod-button-7').innerHTML = 'SAG 06'
 }
 
