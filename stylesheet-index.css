@@ -284,19 +284,19 @@ body {
         background-color: #d2ab67;
         background-blend-mode: soft-light;
         text-shadow: none;
-        outline: none;
+        outline: var(--spGold) 2px solid;
     }
     .product-buttons:active {
         background-color: #d2ab67;
         background-blend-mode: soft-light;
         text-shadow: none;
-        outline: none;
+        outline: var(--spGold) 2px solid;
     }
     .product-buttons:focus {
         background-color: #d2ab67;
         background-blend-mode: soft-light;
         text-shadow: none;
-        outline: none;
+        outline: var(--spGold) 2px solid;
     }
 
     .product-viewer {
