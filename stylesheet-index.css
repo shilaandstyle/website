@@ -83,10 +83,10 @@ body {
 
     .logo-image {
         display: block;
-        margin: 60px auto 0 auto;
+        margin: 12vh auto 0 auto;
         max-width: 1000px;
-        width: 60vw;
-        min-width: 600px;
+        width: auto;
+        height: 72vh;
         shape-rendering: crispEdges;
     }
 
@@ -98,6 +98,8 @@ body {
     .blue-intro {
         background-color: var(--spBlue);
         padding: 100px 0;
+        border-top: 2px var(--spGold) solid;
+        border-bottom: 2px var(--spGold) solid;
     }
 
     .blue-intro h3 {
@@ -105,6 +107,10 @@ body {
         color: var(--spGold);
         padding: 60px 20px;
         width: 55vw;
+    }
+
+    .product-section{
+        margin: 50px 0;
     }
 
     .section-description-container {
@@ -368,10 +374,6 @@ body {
         height: auto;
     }
 
-    .product-description{
-        /* margin: 0 auto; */
-    }
-
     .product-description p {
         font-family: josefin-sans, sans-serif;
         font-weight: 300;
@@ -411,6 +413,10 @@ body {
         color: var(--spBlue);
         text-align: center;
         line-height: 120%;
+    }
+
+    .product-poetry-container{
+        border-bottom: 2px var(--spGold) solid;
     }
 
     .usage-section {
@@ -472,6 +478,14 @@ body {
         z-index: 0;
         height: 42vw !important;
     }
+
+    .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
+        right: 0;
+      }
+      
+      .carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {
+        left: 0;
+      }
 
     .overlay{
         background-color: rgba(255, 255, 255, 0.94);
