@@ -47,33 +47,33 @@ function agateClick() {
 
     prod1click();
 
-    document.getElementById('prod-button-1').style.display='block';
-    document.getElementById('prod-button-1').style.backgroundImage = 'url(./images/thumbnails/whiteagateShilaAndStyle.jpg)';
-    document.getElementById('prod-button-1').innerHTML = 'SAG 06'
-
     document.getElementById('prod-button-2').style.display='block';
-    document.getElementById('prod-button-2').style.backgroundImage = 'url(./images/thumbnails/blueagateShilaAndStyle.jpg)';
+    document.getElementById('prod-button-2').style.backgroundImage = 'url(./images/thumbnails/whiteagateShilaAndStyle.jpg)';
     document.getElementById('prod-button-2').innerHTML = 'SAG 06'
+
+    document.getElementById('prod-button-1').style.display='block';
+    document.getElementById('prod-button-1').style.backgroundImage = 'url(./images/thumbnails/blueagateShilaAndStyle.jpg)';
+    document.getElementById('prod-button-1').innerHTML = 'SAG 05'
 
     document.getElementById('prod-button-3').style.display='block';
     document.getElementById('prod-button-3').style.backgroundImage = 'url(./images/thumbnails/greyagateShilaAndStyle.jpg)';
-    document.getElementById('prod-button-3').innerHTML = 'SAG 06'
+    document.getElementById('prod-button-3').innerHTML = 'SAG 03'
 
     document.getElementById('prod-button-4').style.display='block';
     document.getElementById('prod-button-4').style.backgroundImage = 'url(./images/thumbnails/raniagateShilaAndStyle.jpg)';
-    document.getElementById('prod-button-4').innerHTML = 'SAG 06'
+    document.getElementById('prod-button-4').innerHTML = 'SAG 04'
 
     document.getElementById('prod-button-5').style.display='block';
     document.getElementById('prod-button-5').style.backgroundImage = 'url(./images/thumbnails/crystalagateShilaAndStyle.jpg)';
-    document.getElementById('prod-button-5').innerHTML = 'SAG 06'
+    document.getElementById('prod-button-5').innerHTML = 'SAG 02'
 
     document.getElementById('prod-button-6').style.display='block';
     document.getElementById('prod-button-6').style.backgroundImage = 'url(./images/thumbnails/greenagateShilaAndStyle.jpg)';
-    document.getElementById('prod-button-6').innerHTML = 'SAG 06'
+    document.getElementById('prod-button-6').innerHTML = 'SAG 01'
 
     document.getElementById('prod-button-7').style.display='block';
     document.getElementById('prod-button-7').style.backgroundImage = 'url(./images/thumbnails/yellowagateShilaAndStyle.jpg)';
-    document.getElementById('prod-button-7').innerHTML = 'SAG 06'
+    document.getElementById('prod-button-7').innerHTML = 'SAG 07'
 
     document.getElementById('mat-description').innerHTML=agateDesc;
     
@@ -90,11 +90,11 @@ function amethystClick() {
 
     document.getElementById('prod-button-1').style.display='block';
     document.getElementById('prod-button-1').style.backgroundImage = 'url(./images/amethysts/amethysttumblesShilaAndStyle.jpg)';
-    document.getElementById('prod-button-1').innerHTML = 'SAG 06'
+    document.getElementById('prod-button-1').innerHTML = 'SAM 01'
 
     document.getElementById('prod-button-2').style.display='block';
     document.getElementById('prod-button-2').style.backgroundImage = 'url(./images/amethysts/amethystsmallpinkShilaAndStyle.jpg)';
-    document.getElementById('prod-button-2').innerHTML = 'SAG 06'
+    document.getElementById('prod-button-2').innerHTML = 'SAM 02'
 
     document.getElementById('prod-button-3').style.display='none';
     document.getElementById('prod-button-4').style.display='none';
@@ -117,7 +117,7 @@ function jasperClick() {
 
     document.getElementById('prod-button-1').style.display='block';
     document.getElementById('prod-button-1').style.backgroundImage = 'url(./images/jaspers/fancyjasperShilaAndStyle.jpg)';
-    document.getElementById('prod-button-1').innerHTML = 'SAG 06'
+    document.getElementById('prod-button-1').innerHTML = 'SJA 01'
 
     document.getElementById('prod-button-2').style.display='none';
     document.getElementById('prod-button-3').style.display='none';
@@ -141,15 +141,15 @@ function aventurineClick() {
 
     document.getElementById('prod-button-1').style.display='block';
     document.getElementById('prod-button-1').style.backgroundImage = 'url(./images/aventurines/redaventurineShilaAndStyle.jpg)';
-    document.getElementById('prod-button-1').innerHTML = 'SAG 06'
+    document.getElementById('prod-button-1').innerHTML = 'SAV 01'
 
     document.getElementById('prod-button-2').style.display='block';
     document.getElementById('prod-button-2').style.backgroundImage = 'url(./images/aventurines/lightgreenaventurineShilaAndStyle.jpg)';
-    document.getElementById('prod-button-2').innerHTML = 'SAG 06'
+    document.getElementById('prod-button-2').innerHTML = 'SAV 02'
 
     document.getElementById('prod-button-3').style.display='block';
     document.getElementById('prod-button-3').style.backgroundImage = 'url(./images/aventurines/darkgreenaventurineShilaAndStyle.jpg)';
-    document.getElementById('prod-button-3').innerHTML = 'SAG 06'
+    document.getElementById('prod-button-3').innerHTML = 'SAV 03'
 
     document.getElementById('prod-button-4').style.display='none';
     document.getElementById('prod-button-5').style.display='none';
@@ -163,12 +163,12 @@ function aventurineClick() {
 function prod1click() {
     document.getElementById('prod-button-1').focus({preventScroll:true});
     if (selectedMat === 'agate') {
-        document.getElementById('semi-precious-product-viewer').style.backgroundImage='url(./images/agates/whiteagateShilaAndStyle.jpg)';
-        document.getElementById('semi-precious-backlit-front').src='./images/agates/whiteagateFrontBacklitShilaAndStyle.jpg';
-        document.getElementById('semi-precious-backlit-side').src='./images/agates/whiteagateSideBacklitShilaAndStyle.jpg';
+        document.getElementById('semi-precious-product-viewer').style.backgroundImage='url(./images/agates/blueagateShilaAndStyle.jpg)';
+        document.getElementById('semi-precious-backlit-front').src='./images/agates/blueagateFrontBacklitShilaAndStyle.jpg';
+        document.getElementById('semi-precious-backlit-side').src='./images/agates/blueagateSideBacklitShilaAndStyle.jpg';
 
-        document.getElementById('poetry-actual-text').innerHTML = whiteAgateDesc;
-        document.getElementById('semi-precious-product-name').innerHTML = 'White Agate with Gold Inlay<br>(SAG 06)';
+        document.getElementById('poetry-actual-text').innerHTML = blueAgateDesc;
+        document.getElementById('semi-precious-product-name').innerHTML = 'Blue Agate<br>(SAG 05)';
     }
 
     else if (selectedMat === 'amethyst') {
@@ -201,12 +201,12 @@ function prod1click() {
 function prod2click() {
     document.getElementById('prod-button-2').focus();
     if (selectedMat === 'agate') {
-        document.getElementById('semi-precious-product-viewer').style.backgroundImage='url(./images/agates/blueagateShilaAndStyle.jpg)';
-        document.getElementById('semi-precious-backlit-front').src='./images/agates/blueagateFrontBacklitShilaAndStyle.jpg';
-        document.getElementById('semi-precious-backlit-side').src='./images/agates/blueagateSideBacklitShilaAndStyle.jpg';
+        document.getElementById('semi-precious-product-viewer').style.backgroundImage='url(./images/agates/whiteagateShilaAndStyle.jpg)';
+        document.getElementById('semi-precious-backlit-front').src='./images/agates/whiteagateFrontBacklitShilaAndStyle.jpg';
+        document.getElementById('semi-precious-backlit-side').src='./images/agates/whiteagateSideBacklitShilaAndStyle.jpg';
 
-        document.getElementById('poetry-actual-text').innerHTML = blueAgateDesc;
-        document.getElementById('semi-precious-product-name').innerHTML = 'Blue Agate<br>(SAG 05)';
+        document.getElementById('poetry-actual-text').innerHTML = whiteAgateDesc;
+        document.getElementById('semi-precious-product-name').innerHTML = 'White Agate with Gold Inlay<br>(SAG 06)';
     }
 
     else if (selectedMat === 'amethyst') {
