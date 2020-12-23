@@ -230,7 +230,7 @@ body {
         outline: var(--spWhite) 2px solid;
         background-blend-mode: normal;
         background-color: #d2ab6700;
-        transition: background-color 200ms cubic-bezier(0.445, 0.05, 0.55, 0.95), text-shadow 300ms ease-in;
+        transition: background-color 200ms cubic-bezier(0.445, 0.05, 0.55, 0.95), text-shadow 600ms ease-in;
     }
 
     #prod-button-1 {
@@ -282,22 +282,22 @@ body {
     }
 
     .product-buttons:hover {
-        background-color: #d2ab67;
+        background-color: #d2ab67e5;
         background-blend-mode: soft-light;
-        text-shadow: none;
-        outline: var(--spGold) 2px solid;
+        text-shadow: #36363627 0px 2px 10px;
+        outline:  #d2ab67b0 0px solid;
     }
     .product-buttons:active {
-        background-color: #d2ab67;
+        background-color: #d2ab67b0;
         background-blend-mode: soft-light;
-        text-shadow: none;
-        outline: var(--spGold) 2px solid;
+        text-shadow: #36363627 0px 2px 10px;
+        outline: var(--spGold) 3px solid;
     }
     .product-buttons:focus {
-        background-color: #d2ab67;
+        background-color: #d2ab67b0;
         background-blend-mode: soft-light;
-        text-shadow: none;
-        outline: var(--spGold) 2px solid;
+        text-shadow: #36363627 0px 2px 10px;
+        outline: var(--spGold) 3px solid;
     }
 
     .product-viewer {
