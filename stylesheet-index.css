@@ -369,7 +369,7 @@ body {
     }
 
     .product-description{
-        margin: 0 auto;
+        /* margin: 0 auto; */
     }
 
     .product-description p {
