@@ -9,6 +9,7 @@ let selectedMat = 'agate';
 //======== material functions ===========
 
 function agateClick() {
+    console.log('agateClick function starts');
     selMat(document.getElementById('button-agate'));
     deselMat(document.getElementById('button-amethyst'));
     deselMat(document.getElementById('button-jasper'));
@@ -150,6 +151,67 @@ function prod1click() {
         document.getElementById('semi-precious-backlit-side').src='./images/aventurines/redaventurineSideBacklitShilaAndStyle.jpg';
     }
 }
+function prod2click() {
+    if (selectedMat === 'agate') {
+        document.getElementById('semi-precious-product-viewer').style.backgroundImage='url(./images/agates/blueagateShilaAndStyle.jpg)';
+        document.getElementById('semi-precious-backlit-front').src='./images/agates/blueagateFrontBacklitShilaAndStyle.jpg';
+        document.getElementById('semi-precious-backlit-side').src='./images/agates/blueagateSideBacklitShilaAndStyle.jpg';
+    }
+
+    else if (selectedMat === 'amethyst') {
+        document.getElementById('semi-precious-product-viewer').style.backgroundImage='url(./images/amethysts/amethystsmallpinkShilaAndStyle.jpg)';
+        document.getElementById('semi-precious-backlit-front').src='./images/amethysts/amethysttumblesFrontBacklitShilaAndStyle.jpg';
+        document.getElementById('semi-precious-backlit-side').src='./images/amethysts/amethysttumblesSideBacklitShilaAndStyle.jpg';
+    }
+
+    else if (selectedMat === 'aventurine') {
+        document.getElementById('semi-precious-product-viewer').style.backgroundImage='url(./images/aventurines/lightgreenaventurineShilaAndStyle.jpg)';
+        document.getElementById('semi-precious-backlit-front').src='./images/aventurines/lightgreenaventurineFrontBacklitShilaAndStyle.jpg';
+        document.getElementById('semi-precious-backlit-side').src='./images/aventurines/lightgreenaventurineSideBacklitShilaAndStyle.jpg';
+    }
+}
+function prod3click() {
+    if (selectedMat === 'agate') {
+        document.getElementById('semi-precious-product-viewer').style.backgroundImage='url(./images/agates/greyagateShilaAndStyle.jpg)';
+        document.getElementById('semi-precious-backlit-front').src='./images/agates/greyagateFrontBacklitShilaAndStyle.jpg';
+        document.getElementById('semi-precious-backlit-side').src='./images/agates/greyagateSideBacklitShilaAndStyle.jpg';
+    }
+
+    else if (selectedMat === 'aventurine') {
+        document.getElementById('semi-precious-product-viewer').style.backgroundImage='url(./images/aventurines/darkgreenaventurineShilaAndStyle.jpg)';
+        document.getElementById('semi-precious-backlit-front').src='./images/aventurines/darrkgreenaventurineFrontBacklitShilaAndStyle.jpg';
+        document.getElementById('semi-precious-backlit-side').src='./images/aventurines/darkgreenaventurineSideBacklitShilaAndStyle.jpg';
+    }
+}
+function prod4click() {
+    if (selectedMat === 'agate') {
+        document.getElementById('semi-precious-product-viewer').style.backgroundImage='url(./images/agates/raniagateShilaAndStyle.jpg)';
+        document.getElementById('semi-precious-backlit-front').src='images/agates/rainagateFrontBacklitShilaAndStyle.jpg';
+        document.getElementById('semi-precious-backlit-side').src='./images/agates/raniagateSideBacklitShilaAndStyle.jpg';
+    }
+}
+function prod5click() {
+    if (selectedMat === 'agate') {
+        document.getElementById('semi-precious-product-viewer').style.backgroundImage='url(./images/agates/crystalagateShilaAndStyle.jpg)';
+        document.getElementById('semi-precious-backlit-front').src='images/agates/crystalagateFrontBacklitShilaAndStyle.jpg';
+        document.getElementById('semi-precious-backlit-side').src='./images/agates/crystalagateSideBacklitShilaAndStyle.jpg';
+    }
+}
+function prod6click() {
+    if (selectedMat === 'agate') {
+        document.getElementById('semi-precious-product-viewer').style.backgroundImage='url(./images/agates/greenagateShilaAndStyle.jpg)';
+        document.getElementById('semi-precious-backlit-front').src='';
+        document.getElementById('semi-precious-backlit-side').src='';
+    }
+}
+function prod7click() {
+    if (selectedMat === 'agate') {
+        document.getElementById('semi-precious-product-viewer').style.backgroundImage='url(./images/agates/yellowagateShilaAndStyle.jpg)';
+        document.getElementById('semi-precious-backlit-front').src='images/agates/yellowagateFrontBacklitShilaAndStyle.jpg';
+        document.getElementById('semi-precious-backlit-side').src='./images/agates/yellowagateSideBacklitShilaAndStyle.jpg';
+    }
+}
+
 
 //========= utility functions ===========
 
