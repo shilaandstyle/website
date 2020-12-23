@@ -423,6 +423,7 @@ body {
         background-color: var(--spWhite);
         border-top: var(--spGold) 2px solid;
         border-bottom: var(--spGold) 2px solid;
+        margin: 50px auto;
     }
 
     .info-heading-container {
