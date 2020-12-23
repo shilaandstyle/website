@@ -222,7 +222,7 @@ body {
         background-position: center;
         background-size: cover;
         color: var(--spWhite);
-        text-shadow: #36363670 0px 0px 4px;
+        text-shadow: #36363693 0px 0px 4px;
         font-size: 18px;
         font-weight: 600;
         text-transform: uppercase;
@@ -284,6 +284,19 @@ body {
         background-color: #d2ab67;
         background-blend-mode: soft-light;
         text-shadow: none;
+        outline: none;
+    }
+    .product-buttons:active {
+        background-color: #d2ab67;
+        background-blend-mode: soft-light;
+        text-shadow: none;
+        outline: none;
+    }
+    .product-buttons:focus {
+        background-color: #d2ab67;
+        background-blend-mode: soft-light;
+        text-shadow: none;
+        outline: none;
     }
 
     .product-viewer {
