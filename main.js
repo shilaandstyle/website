@@ -127,6 +127,7 @@ function aventurineClick() {
 }
 
 function prod1click() {
+    document.getElementById('prod-button-1').focus();
     if (selectedMat === 'agate') {
         document.getElementById('semi-precious-product-viewer').style.backgroundImage='url(./images/agates/whiteagateShilaAndStyle.jpg)';
         document.getElementById('semi-precious-backlit-front').src='./images/agates/whiteagateFrontBacklitShilaAndStyle.jpg';
@@ -152,6 +153,7 @@ function prod1click() {
     }
 }
 function prod2click() {
+    document.getElementById('prod-button-2').focus();
     if (selectedMat === 'agate') {
         document.getElementById('semi-precious-product-viewer').style.backgroundImage='url(./images/agates/blueagateShilaAndStyle.jpg)';
         document.getElementById('semi-precious-backlit-front').src='./images/agates/blueagateFrontBacklitShilaAndStyle.jpg';
@@ -171,6 +173,7 @@ function prod2click() {
     }
 }
 function prod3click() {
+    document.getElementById('prod-button-3').focus();
     if (selectedMat === 'agate') {
         document.getElementById('semi-precious-product-viewer').style.backgroundImage='url(./images/agates/greyagateShilaAndStyle.jpg)';
         document.getElementById('semi-precious-backlit-front').src='./images/agates/greyagateFrontBacklitShilaAndStyle.jpg';
@@ -184,6 +187,7 @@ function prod3click() {
     }
 }
 function prod4click() {
+    document.getElementById('prod-button-4').focus();
     if (selectedMat === 'agate') {
         document.getElementById('semi-precious-product-viewer').style.backgroundImage='url(./images/agates/raniagateShilaAndStyle.jpg)';
         document.getElementById('semi-precious-backlit-front').src='images/agates/rainagateFrontBacklitShilaAndStyle.jpg';
@@ -191,6 +195,7 @@ function prod4click() {
     }
 }
 function prod5click() {
+    document.getElementById('prod-button-5').focus();
     if (selectedMat === 'agate') {
         document.getElementById('semi-precious-product-viewer').style.backgroundImage='url(./images/agates/crystalagateShilaAndStyle.jpg)';
         document.getElementById('semi-precious-backlit-front').src='images/agates/crystalagateFrontBacklitShilaAndStyle.jpg';
@@ -198,6 +203,7 @@ function prod5click() {
     }
 }
 function prod6click() {
+    document.getElementById('prod-button-6').focus();
     if (selectedMat === 'agate') {
         document.getElementById('semi-precious-product-viewer').style.backgroundImage='url(./images/agates/greenagateShilaAndStyle.jpg)';
         document.getElementById('semi-precious-backlit-front').src='';
@@ -205,6 +211,7 @@ function prod6click() {
     }
 }
 function prod7click() {
+    document.getElementById('prod-button-7').focus();
     if (selectedMat === 'agate') {
         document.getElementById('semi-precious-product-viewer').style.backgroundImage='url(./images/agates/yellowagateShilaAndStyle.jpg)';
         document.getElementById('semi-precious-backlit-front').src='images/agates/yellowagateFrontBacklitShilaAndStyle.jpg';
