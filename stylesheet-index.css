@@ -87,6 +87,7 @@ body {
         max-width: 1000px;
         width: 60vw;
         min-width: 600px;
+        shape-rendering: crispEdges;
     }
 
     .intro-text {
@@ -183,7 +184,7 @@ body {
     .product-selection {
         border-right: var(--spGold) 2px solid;
         border-left: var(--spGold) 2px solid;
-        padding: 32px 50px 0 50px;
+        padding: 32px 3.5vw 0 3.5vw;
     }
 
     .mat-description {
@@ -207,10 +208,10 @@ body {
         margin: auto;
         width: max-content;
         display: grid;
-        grid-template-columns: 85px 85px;
-        grid-auto-rows: 85px;
-        row-gap: 18px;
-        column-gap: 18px;
+        grid-template-columns: 5vw 5vw;
+        grid-auto-rows: 5vw;
+        row-gap: 1.2vw;
+        column-gap: 1.2vw;
     }
 
     .product-buttons {
@@ -222,7 +223,7 @@ body {
         background-position: center;
         background-size: cover;
         color: var(--spWhite);
-        text-shadow: #36363693 0px 0px 4px;
+        text-shadow: #36363693 0px 2px 10px;
         font-size: 18px;
         font-weight: 600;
         text-transform: uppercase;

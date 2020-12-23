@@ -6,6 +6,34 @@ let spWhite = '#FFFFFF';
 
 let selectedMat = 'agate';
 
+let agateDesc='Agate is known to be a grounding stone; it creates emotional, physical, and intellectual balance. Used to emphasize the feelings of calmness and mindfulness in the space.'
+
+let whiteAgateDesc='White Agate crystals delicately drizzled with ornamental gold, a true definition of luxury and elegance.';
+let blueAgateDesc = 'The deep azure color of blue agate activates the peaceful and soothing nature of agate increasing positive vibes in the space.';
+let raniAgateDesc='This bold pink stone is a perfect statement piece to center the power, attention, and balance in your space.';
+let greyAgateDesc='The naturally set concentric patterns in the Grey Agate help heal anger and anxiety increasing mindfulness in the body.';
+let yellowAgateDesc='The mosaic of yellow, brown, and beige crystals makes yellow agate a marvellous stone that reflects the healing energy of the sun';
+let crystalAgateDesc='Simple and elegant choice for those calm corners in your space.';
+let greenAgateDesc = 'Gold inlaid in between the forest inspired green crystals is a true fusion of royalty and simplicity.';
+
+
+let amethystDesc = 'Amethyst is a part of the original cardinal gemstones that hold ceremonial and religious significance in many cultures. It relieves stress, balances mood swings and is believed to prevent intoxication.';
+
+let greaterAmeDesc='Amethyst tumbles  - The royal shades of purple play well with golden and brown tones forming beautiful unique patterns.';
+let tumblesAmeDesc = '';
+
+
+let jasperDesc = 'Jasper is a stone of stability. It provides protection and absorbs negative energy. This comforting stone will bring in a sense of strength and security into the space.';
+let fancyJasDesc='The beautiful melange of crimson, milky white, and beige makes fancy jasper an attractive stone for home decorators.';
+
+let aventurineDesc='Aventurine is a stone of opportunity. It attracts luck, abundance, and success. It encourages optimism and a fearless quest for life.';
+
+let redAveDesc='Red Aventurine brings luck and success to the beholder. As a result, this brilliant stone also helps those around it develop an optimistic outlook of the world.';
+let lightgreenAveDesc = 'The vibrant greens of this stone make it full of life. Light Green Aventurine is a perfect piece to cheer up the energy of the space.';
+let darkgreenAveDesc='Dark Green Aventurine - this fauvist stone brings in the impression of wild forest in the indoor spaces signifying abundance and prosperity.';
+
+
+
 //======== material functions ===========
 
 function agateClick() {
@@ -46,6 +74,9 @@ function agateClick() {
     document.getElementById('prod-button-7').style.display='block';
     document.getElementById('prod-button-7').style.backgroundImage = 'url(./images/thumbnails/yellowagateShilaAndStyle.jpg)';
     document.getElementById('prod-button-7').innerHTML = 'SAG 06'
+
+    document.getElementById('mat-description').innerHTML=agateDesc;
+    
 }
 
 function amethystClick() {
@@ -72,6 +103,7 @@ function amethystClick() {
     document.getElementById('prod-button-7').style.display='none';
 
     prod1click();
+    document.getElementById('mat-description').innerHTML=amethystDesc;
 }
 
 function jasperClick() {
@@ -95,6 +127,7 @@ function jasperClick() {
     document.getElementById('prod-button-7').style.display='none';
 
     prod1click();
+    document.getElementById('mat-description').innerHTML=jasperDesc;
 }
 
 function aventurineClick() {
@@ -124,6 +157,7 @@ function aventurineClick() {
     document.getElementById('prod-button-7').style.display='none';
 
     prod1click();
+    document.getElementById('mat-description').innerHTML=aventurineDesc;
 }
 
 function prod1click() {
@@ -138,12 +172,16 @@ function prod1click() {
         document.getElementById('semi-precious-product-viewer').style.backgroundImage='url(./images/amethysts/amethysttumblesShilaAndStyle.jpg)';
         document.getElementById('semi-precious-backlit-front').src='./images/amethysts/amethysttumblesFrontBacklitShilaAndStyle.jpg';
         document.getElementById('semi-precious-backlit-side').src='./images/amethysts/amethysttumblesSideBacklitShilaAndStyle.jpg';
+
+        
     }
 
     else if (selectedMat === 'jasper') {
         document.getElementById('semi-precious-product-viewer').style.backgroundImage='url(./images/jaspers/fancyjasperFrontBacklitShilaAndStyle.jpg)';
         document.getElementById('semi-precious-backlit-front').src='./images/jaspers/fancyjasperFrontBacklitShilaAndStyle.jpg';
         document.getElementById('semi-precious-backlit-side').src='./images/jaspers/fancyjasperBacklitSideShilaAndStyle.jpg';
+
+        
     }
 
     else if (selectedMat === 'aventurine') {
