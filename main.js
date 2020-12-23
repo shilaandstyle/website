@@ -161,7 +161,7 @@ function aventurineClick() {
 }
 
 function prod1click() {
-    document.getElementById('prod-button-1').focus();
+    document.getElementById('prod-button-1').focus({preventScroll:true});
     if (selectedMat === 'agate') {
         document.getElementById('semi-precious-product-viewer').style.backgroundImage='url(./images/agates/whiteagateShilaAndStyle.jpg)';
         document.getElementById('semi-precious-backlit-front').src='./images/agates/whiteagateFrontBacklitShilaAndStyle.jpg';
