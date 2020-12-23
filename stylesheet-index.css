@@ -291,13 +291,13 @@ body {
         background-color: #d2ab67b0;
         background-blend-mode: soft-light;
         text-shadow: #36363627 0px 2px 10px;
-        outline: var(--spGold) 3px solid;
+        outline: var(--spGold) 4px solid;
     }
     .product-buttons:focus {
         background-color: #d2ab67b0;
         background-blend-mode: soft-light;
         text-shadow: #36363627 0px 2px 10px;
-        outline: var(--spGold) 3px solid;
+        outline: var(--spGold) 4px solid;
     }
 
     .product-viewer {
@@ -384,8 +384,9 @@ body {
 
     .product-poetry-container {
         display: grid;
-        grid-template-columns: 25vw auto;
+        grid-template-columns: 25vw auto 5.5vw; 
         grid-template-rows: 100px;
+        background-color: var(--spWhite);
     }
 
     .left-column {

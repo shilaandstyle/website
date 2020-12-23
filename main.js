@@ -28,7 +28,7 @@ let fancyJasDesc='The beautiful melange of crimson, milky white, and beige makes
 
 let aventurineDesc='Aventurine is a stone of opportunity. It attracts luck, abundance, and success. It encourages optimism and a fearless quest for life.';
 
-let redAveDesc='Red Aventurine brings luck and success to the beholder. As a result, this brilliant stone also helps those around it develop an optimistic outlook of the world.';
+let redAveDesc='Red Aventurine brings luck and success to the beholder.<br>As a result, this brilliant stone also helps those around it develop an optimistic outlook of the world.';
 let lightgreenAveDesc = 'The vibrant greens of this stone make it full of life. Light Green Aventurine is a perfect piece to cheer up the energy of the space.';
 let darkgreenAveDesc='Dark Green Aventurine - this fauvist stone brings in the impression of wild forest in the indoor spaces signifying abundance and prosperity.';
 
@@ -166,6 +166,9 @@ function prod1click() {
         document.getElementById('semi-precious-product-viewer').style.backgroundImage='url(./images/agates/whiteagateShilaAndStyle.jpg)';
         document.getElementById('semi-precious-backlit-front').src='./images/agates/whiteagateFrontBacklitShilaAndStyle.jpg';
         document.getElementById('semi-precious-backlit-side').src='./images/agates/whiteagateSideBacklitShilaAndStyle.jpg';
+
+        document.getElementById('poetry-actual-text').innerHTML = whiteAgateDesc;
+        document.getElementById('semi-precious-product-name').innerHTML = 'White Agate with Gold Inlay<br>(SAG 06)';
     }
 
     else if (selectedMat === 'amethyst') {
@@ -173,7 +176,8 @@ function prod1click() {
         document.getElementById('semi-precious-backlit-front').src='./images/amethysts/amethysttumblesFrontBacklitShilaAndStyle.jpg';
         document.getElementById('semi-precious-backlit-side').src='./images/amethysts/amethysttumblesSideBacklitShilaAndStyle.jpg';
 
-        
+        document.getElementById('poetry-actual-text').innerHTML = greaterAmeDesc;
+        document.getElementById('semi-precious-product-name').innerHTML = 'Greater Amethyst<br>(SAM 01)';
     }
 
     else if (selectedMat === 'jasper') {
@@ -181,13 +185,17 @@ function prod1click() {
         document.getElementById('semi-precious-backlit-front').src='./images/jaspers/fancyjasperFrontBacklitShilaAndStyle.jpg';
         document.getElementById('semi-precious-backlit-side').src='./images/jaspers/fancyjasperBacklitSideShilaAndStyle.jpg';
 
-        
+        document.getElementById('poetry-actual-text').innerHTML = fancyJasDesc;
+        document.getElementById('semi-precious-product-name').innerHTML = 'Fancy Jasper<br>(SJA 01)';
     }
 
     else if (selectedMat === 'aventurine') {
         document.getElementById('semi-precious-product-viewer').style.backgroundImage='url(./images/aventurines/redaventurineShilaAndStyle.jpg)';
         document.getElementById('semi-precious-backlit-front').src='./images/aventurines/redaventurineFrontBacklitShilaAndStyle.jpg';
         document.getElementById('semi-precious-backlit-side').src='./images/aventurines/redaventurineSideBacklitShilaAndStyle.jpg';
+
+        document.getElementById('poetry-actual-text').innerHTML = redAveDesc;
+        document.getElementById('semi-precious-product-name').innerHTML = 'Red Aventurine<br>(SAV 01)';
     }
 }
 function prod2click() {
@@ -196,18 +204,27 @@ function prod2click() {
         document.getElementById('semi-precious-product-viewer').style.backgroundImage='url(./images/agates/blueagateShilaAndStyle.jpg)';
         document.getElementById('semi-precious-backlit-front').src='./images/agates/blueagateFrontBacklitShilaAndStyle.jpg';
         document.getElementById('semi-precious-backlit-side').src='./images/agates/blueagateSideBacklitShilaAndStyle.jpg';
+
+        document.getElementById('poetry-actual-text').innerHTML = blueAgateDesc;
+        document.getElementById('semi-precious-product-name').innerHTML = 'Blue Agate<br>(SAG 05)';
     }
 
     else if (selectedMat === 'amethyst') {
         document.getElementById('semi-precious-product-viewer').style.backgroundImage='url(./images/amethysts/amethystsmallpinkShilaAndStyle.jpg)';
         document.getElementById('semi-precious-backlit-front').src='./images/amethysts/amethysttumblesFrontBacklitShilaAndStyle.jpg';
         document.getElementById('semi-precious-backlit-side').src='./images/amethysts/amethysttumblesSideBacklitShilaAndStyle.jpg';
+
+        document.getElementById('poetry-actual-text').innerHTML = tumblesAmeDesc;
+        document.getElementById('semi-precious-product-name').innerHTML = 'Amethyst Tumbles<br>(SAM 02)';
     }
 
     else if (selectedMat === 'aventurine') {
         document.getElementById('semi-precious-product-viewer').style.backgroundImage='url(./images/aventurines/lightgreenaventurineShilaAndStyle.jpg)';
         document.getElementById('semi-precious-backlit-front').src='./images/aventurines/lightgreenaventurineFrontBacklitShilaAndStyle.jpg';
         document.getElementById('semi-precious-backlit-side').src='./images/aventurines/lightgreenaventurineSideBacklitShilaAndStyle.jpg';
+
+        document.getElementById('poetry-actual-text').innerHTML = lightgreenAveDesc;
+        document.getElementById('semi-precious-product-name').innerHTML = 'Light Green Aventurine<br>(SAV 02)';
     }
 }
 function prod3click() {
@@ -216,12 +233,18 @@ function prod3click() {
         document.getElementById('semi-precious-product-viewer').style.backgroundImage='url(./images/agates/greyagateShilaAndStyle.jpg)';
         document.getElementById('semi-precious-backlit-front').src='./images/agates/greyagateFrontBacklitShilaAndStyle.jpg';
         document.getElementById('semi-precious-backlit-side').src='./images/agates/greyagateSideBacklitShilaAndStyle.jpg';
+
+        document.getElementById('poetry-actual-text').innerHTML = greyAgateDesc;
+        document.getElementById('semi-precious-product-name').innerHTML = 'Grey Agate<br>(SAG 03)';
     }
 
     else if (selectedMat === 'aventurine') {
         document.getElementById('semi-precious-product-viewer').style.backgroundImage='url(./images/aventurines/darkgreenaventurineShilaAndStyle.jpg)';
         document.getElementById('semi-precious-backlit-front').src='./images/aventurines/darrkgreenaventurineFrontBacklitShilaAndStyle.jpg';
         document.getElementById('semi-precious-backlit-side').src='./images/aventurines/darkgreenaventurineSideBacklitShilaAndStyle.jpg';
+
+        document.getElementById('poetry-actual-text').innerHTML = darkgreenAveDesc;
+        document.getElementById('semi-precious-product-name').innerHTML = 'Dark Green Aventurine<br>(SAV 03)';
     }
 }
 function prod4click() {
@@ -230,6 +253,9 @@ function prod4click() {
         document.getElementById('semi-precious-product-viewer').style.backgroundImage='url(./images/agates/raniagateShilaAndStyle.jpg)';
         document.getElementById('semi-precious-backlit-front').src='images/agates/rainagateFrontBacklitShilaAndStyle.jpg';
         document.getElementById('semi-precious-backlit-side').src='./images/agates/raniagateSideBacklitShilaAndStyle.jpg';
+
+        document.getElementById('poetry-actual-text').innerHTML = raniAgateDesc;
+        document.getElementById('semi-precious-product-name').innerHTML = 'Rani Agate<br>(SAG 04)';
     }
 }
 function prod5click() {
@@ -238,6 +264,9 @@ function prod5click() {
         document.getElementById('semi-precious-product-viewer').style.backgroundImage='url(./images/agates/crystalagateShilaAndStyle.jpg)';
         document.getElementById('semi-precious-backlit-front').src='images/agates/crystalagateFrontBacklitShilaAndStyle.jpg';
         document.getElementById('semi-precious-backlit-side').src='./images/agates/crystalagateSideBacklitShilaAndStyle.jpg';
+
+        document.getElementById('poetry-actual-text').innerHTML = crystalAgateDesc;
+        document.getElementById('semi-precious-product-name').innerHTML = 'Crystal Agate<br>(SAG 02)';
     }
 }
 function prod6click() {
@@ -246,6 +275,9 @@ function prod6click() {
         document.getElementById('semi-precious-product-viewer').style.backgroundImage='url(./images/agates/greenagateShilaAndStyle.jpg)';
         document.getElementById('semi-precious-backlit-front').src='';
         document.getElementById('semi-precious-backlit-side').src='';
+
+        document.getElementById('poetry-actual-text').innerHTML = greenAgateDesc;
+        document.getElementById('semi-precious-product-name').innerHTML = 'Green Agate with Gold Inlay<br>(SAG 01)';
     }
 }
 function prod7click() {
@@ -254,6 +286,9 @@ function prod7click() {
         document.getElementById('semi-precious-product-viewer').style.backgroundImage='url(./images/agates/yellowagateShilaAndStyle.jpg)';
         document.getElementById('semi-precious-backlit-front').src='images/agates/yellowagateFrontBacklitShilaAndStyle.jpg';
         document.getElementById('semi-precious-backlit-side').src='./images/agates/yellowagateSideBacklitShilaAndStyle.jpg';
+
+        document.getElementById('poetry-actual-text').innerHTML = yellowAgateDesc;
+        document.getElementById('semi-precious-product-name').innerHTML = 'Yellow Agate<br>(SAG 07)';
     }
 }
 
