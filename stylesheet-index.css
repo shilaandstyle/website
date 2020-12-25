@@ -109,17 +109,12 @@ body {
         width: 55vw;
     }
 
-    .product-section{
-        margin: 50px 0;
-    }
-
     .section-description-container {
         display: flex;
         background-color: var(--spWhite);
         padding: 70px 0;
         align-items: center;
         justify-content: center;
-        border-top: var(--spGold) 2px solid;
     }
 
     .section-description-container h4 {
@@ -282,9 +277,14 @@ body {
     }
 
     #ruby-button-1 {
-        background-image: url(./images/ruby/rubyFrontNaturalLitShilaAndStyle.jpg);
+        background-image: url(./images/ruby/RubyNaturalLightShilaAndStyle3.jpg);
         background-position: center;
         background-size: cover;
+
+        background-color: #d2ab67b0;
+        background-blend-mode: soft-light;
+        text-shadow: #36363627 0px 2px 10px;
+        outline: var(--spGold) 4px solid;
     }
 
     .product-buttons:hover {
@@ -321,11 +321,20 @@ body {
     }
 
     #precious-product-viewer {
-        background-image: url(./images/ruby/rubyFrontNaturalLitShilaAndStyle.jpg);
-        background-attachment: fixed;
-        background-repeat: no-repeat;
-        background-size: auto 130%;
-        background-position: 70% 50%;
+        background-image: url(./images/ruby/RubyNaturalLightShilaAndStyle3.jpg);
+        background-size: cover;
+    }
+
+    #button-ruby{
+        outline: none;
+        color: var(--spWhite);
+        background-color: var(--spGold);
+    }
+
+    #button-ruby:hover{
+        outline: none;
+        color: var(--spWhite);
+        background-color: var(--spGold);
     }
 
     .product-info {
@@ -421,9 +430,7 @@ body {
 
     .usage-section {
         background-color: var(--spWhite);
-        border-top: var(--spGold) 2px solid;
-        border-bottom: var(--spGold) 2px solid;
-        margin: 50px auto;
+        margin: 0 auto;
     }
 
     .info-heading-container {
@@ -525,6 +532,7 @@ body {
     .trust-section {
         background-color: var(--spWhite);
         border-bottom: 2px var(--spGold) solid;
+        border-top: var(--spGold) 2px solid;
     }
 
     .gold-text{
@@ -616,7 +624,6 @@ body {
         grid-template-columns: 15% auto 15%;
         grid-template-rows: 80vh;
         background-color: var(--spWhite);
-        border-bottom: 2px var(--spGold) solid;
     }
 
     .properties-container{
@@ -651,12 +658,13 @@ body {
     }
 
     .contact-section{
-        height: 50vh;
+        min-height: 100px;
         background-color: var(--spWhite);
         border-bottom: 2px var(--spGold) solid;
+        padding: 80px 0;
     }
     .footer-section{
-        height: 30vh;
+        min-height: 100px;
         background-color: var(--spBlue);
     }
 
@@ -679,6 +687,20 @@ body {
         color: var(--spBlue);
         line-height: 120%;
         padding-left: 24px;
+    }
+
+    .contact-form-wrapper{
+        margin: auto;
+        width: 40vw;
+        padding: 50px;
+        background-color: var(--spWhite);
+        border: var(--spGold) 2px solid;
+    }
+
+    .mc-field-group label{
+        color: var(--spBlue);
+        font-size: 18px;
+        font-weight: 400;
     }
 
 
