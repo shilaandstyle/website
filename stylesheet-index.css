@@ -242,13 +242,13 @@ body {
         transition: background-color 200ms cubic-bezier(0.445, 0.05, 0.55, 0.95), text-shadow 600ms ease-in;
     }
 
-    #prod-button-1 {
+    #prod-button-2 {
         background-image: url(./images/agates/whiteagateShilaAndStyle.jpg);
         background-position: center;
         background-size: cover;
     }
 
-    #prod-button-2 {
+    #prod-button-1 {
         background-image: url(./images/agates/blueagateShilaAndStyle.jpg);
         background-position: center;
         background-size: cover;
